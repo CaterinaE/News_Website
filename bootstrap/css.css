@@ -1,0 +1,245 @@
+
+			 	 /*The default fonts for the website*/
+			 	 html {
+			 		font-family:"Helvetica Neue",  Helvetica ,sans-serif;
+				       }
+
+
+					/* No underline for the links default*/
+					html a {
+					text-decoration: none;
+					color: #fff !important;
+
+					}
+
+			 	 /* headigs font will be in Georgia*/
+			 		h1, h2, h3, h4, h5, h6 {
+			 		font-family: Georgia, serif;
+			 	 }
+
+			 	 /*deflaut color and font*/
+			 	 body {
+           color: black;
+					 font-size:15px;
+			 	      }
+
+             /*defaults for a */
+							/*hover is clear*/
+							a:hover{
+							opacity: 0.7;
+							text-decoration: none;
+							}
+							/*active is clear*/
+							a:active{
+							text-decoration: none;
+							color: blue;
+							}
+
+							a, a:hover, a:focus {
+							 text-decoration: none;
+							 color: inherit;
+							}
+
+
+/*the header menu is MidnightBlue, text align to right*/
+        header {
+        overflow: hidden;
+        background-color:	MidnightBlue;
+        padding:  15px 5px;
+			  }
+
+    /*the header text is cursive, align to center white is forced**/
+				header h1{
+      	font-size: 25px;
+				font-family:'Brush Script MT', cursive;
+      		text-align: center;
+				}
+
+        /* navbar link will be black with a padding to the right*/
+				 nav  a {
+				 font-size: 20px;
+				 color: black !important;
+				 padding-right: 20px !important;
+				 }
+
+
+ /* the middle area of the web pages*/
+   .center {
+   margin: auto;
+	 padding:25px 25px;
+	 margin:  5px;
+	 }
+
+  /* the links will be a light green*/
+   .center a {
+  color: #61CE70 !important;
+   }
+
+ /* the cover of the links will be a blue*/
+   .center a:hover {
+   color: blue !important;
+   }
+
+
+
+	         /* space for the starting of the content after top spacing**/
+	 						 .p {
+	 							padding-top: 20px;
+	 							font-size:15px;
+	 							}
+
+								/* space for the bottom**/
+	             .bottom {
+	 							padding-bottom: 10px;
+	 						  }
+
+						/* heading wll be 30px font size*/
+	 						h2 {
+	 							font-size: 30px;
+	 					  	}
+
+
+						/* the hr will be a soild black*/
+	 					hr {
+	 					  border: 0;
+	 					  clear:both;
+	 					  display:block;
+	 				  	width: 100%;
+	 					  background-color: black;
+	 					  height: 2px;
+	 					  }
+
+
+/* footer at the end of page with social media info center*/
+ /* the padding top bottom, font size, text align will place the info at the bottom right of the page*/
+			 footer {
+			 padding: 20px;
+			 font-size:20px;
+			 background-color: MidnightBlue;
+			 position: relative;
+			 overflow: hidden;
+			 }
+
+			 /* footer info is grey */
+			  .footer-column {
+			  color: grey;
+			  }
+
+				/* the socail buttons will be orange */
+				ul.social-buttons li a:active,
+				ul.social-buttons li a:focus,
+				ul.social-buttons li a:hover {
+					background-color:  orange;
+				}
+
+				/* the socail media structure to make the cicrle images */
+				ul.social-buttons li a {
+					font-size: 20px;
+					line-height: 40px;
+					display: block;
+					width: 40px;
+					height: 40px;
+					color: #fff;
+					border-radius: 100%;
+					background-color:  grey;
+				}
+				 .social-buttons li{
+					 padding-top: 20px;
+				 }
+/*footer*/
+
+
+/*contact page*/
+         textarea{
+         height: 100px;
+         }
+
+         /* Style inputs */
+         input[type=text],   textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid black;
+          margin-top: 6px;
+          margin-bottom: 22px;
+         }
+
+        /* the button for submit */
+        input[type=button]  {
+          border: none;
+          color: white;
+          font-size: 15px;
+          padding: 16px 22px;
+          margin: 10px 2px;
+          cursor: pointer;
+          position: relative;
+          border-radius: 25px;
+          display: inline-block;
+          }
+
+			/** map container for the map */
+					.map-container-6{
+					 overflow:hidden;
+					 padding-bottom:56.25%;
+					 position:relative;
+ 					 }
+
+					 /*map container height width whole area*/
+					 .map-container-6 iframe{
+					 left:0;
+					 top:0;
+					 height:100%;
+					 width:100%;
+					 position:absolute;
+					 }
+/* contact us page**/
+
+
+
+
+/* home page*/
+        /* background image for home page*/
+						.newsimage{
+						background-image: url(../img/news.jpg);
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: center center;
+           	height: 200px;
+						}
+
+         /* heading wll be 30px font size with spacing on top*/
+					.newsimage h2{
+					  font-size: 30px;
+					  padding-top: 80px;
+					  }
+
+						/* the card will have a blakc border*/
+						.card {
+					    border: 1px solid black;
+						  margin-bottom: 2rem;
+						  }
+/* home page*/
+
+
+/* article page*/
+
+				/*thelayout of the videos for the bottom of the page */
+				   	video {
+						width: 100%;
+						height: auto;
+					  }
+
+				/*the happy kids format for the image */
+					.kids {
+					float: left;
+				 	width: 40%;
+					padding-top: 15px;
+					margin:  0px  20px;
+					}
+
+       	/*the  crying woman float to right side*/
+				.cryingwoman {
+				float: right;
+				padding-top: 15px;
+				margin:  0px   20px;
+			  }
+/* article page**/

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<title>Home - Daily St Andrews</title>
+<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- Fontawesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!--style sheet -->
+<link rel="stylesheet" href="css.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- the header has my company name centered in the middle -->
+<header class="col-md-12 text-center" >
+  <a href="home.html"><h1>The Daily St Andrews</h1></a>
+</header>
+
+<!-- Navigation -->
+  <!-- narbat expand to middle size-->
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="home.html"> <img src="../img/DSA.png" alt="The Daily St Andrews" width="120" height="50"  class="img-fluid" ></a>
+<!--the button will be to the left side, the nav bar main home bar, will display on the left when open -->
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+  <div class="navbar-nav nav">
+  	 <a href="home.html"  class="nav-link active">Home</a>
+  	 <a href="articles.html" class="nav-item nav-link link-dark">Articles</a>
+  	 <a href="contact.html" class="nav-item nav-link link-dark">Contact</a>
+  </div>
+</div>
+</nav>
+<hr>
+
+<!--this will center all the content in this section until it reaches the footer-->
+<section class=" center pb-5">
+<!-- background image for the news main page-->
+<section class="newsimage">
+<h2 class="text-center "><u>We Have The Real News</u></h2>
+</section>
+
+<!-- a bold line for seprating the articles -->
+<hr>
+<!-- a bold line for seprating the articles -->
+<hr>
+
+<!--container for the articles and images  -->
+<div class="container mx-auto mt-4">
+  <!--a card for the image and text of this short summary of the articel will be the columns will be next to each other -->
+<div class="col-md-12 col-lg-4">
+<div class="card">
+  <img src="../img/happykids.jpg" class="card-img-top pt-5 px-4" alt="kids playing" width="200" height="200"  >
+  <div class="card-body">
+  <a href="articles.html"><h3 class="card-title  pt-5 text-center">Lorem ipsum dolor sit amet</h3></a>
+  <div class="card-text">
+    <p>Lorem ipsum dolor  sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+  </div>
+  </div>
+</div>
+</div><!--end of the column -->
+
+<!--a card for the image and text of this short summary of the articel will be the columns will be next to each other -->
+<div class="col-md-12 col-lg-4 ">
+  <div class="card">
+    <img src="../img/fire.jpg" class="card-img-top pt-5 px-4" alt="fire man" width="200" height="200" >
+  <div class="card-body">
+     <a href="articles.html"><h3 class="card-title  pt-5 text-center">Lorem ipsum dolor sit amet</h3></a>
+  <div class="card-text">
+       <p>Lorem ipsum dolor  sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+   </div>
+   </div>
+   </div>
+   </div><!--end of the column -->
+
+<!--a card for the image and text of this short summary of the articel will be the columns will be next to each other -->
+<div class="col-md-12 col-lg-4 ">
+ <div class="card">
+    <img src="../img/woman.jpg" class="card-img-top pt-5 px-4" alt="A happy women" width="200" height="200"  >
+ <div class="card-body">
+    <a href="articles.html"><h3 class="card-title  pt-5 text-center">Lorem ipsum dolor sit amet</h3></a>
+  <div class="card-text">
+     <p>Lorem ipsum dolor  sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestias hic velit, ipsum facere nemo minus distinctio est quidem neque.</p>
+  </div>
+  </div>
+ </div>
+</div><!--end of the column -->
+</div><!--end of the container -->
+
+</section><!-- end of the .center -->
+<!--the footer has the social media icons and contact info-->
+<footer>
+ <div class="row">
+ <div class="col-md-4 footer-column ">
+ <ul class=" nav flex-column">
+ <li>The Daily St Andrews</li>
+ <li>Market Street</li>
+ <li>St Andrews, Scotland</li>
+ <li><i class="fa fa-envelope"> <a href="mailto:dailystandrews@gmail.com">dailystandrews@gmail.com</a></i></li>
+ <li><i class="fa fa-phone"><a href="tel:+555-555-555">555-555-555</a></i></li>
+ </ul>
+ </div>
+ <div class="col-md-4 footer-column list-inline social-buttons text-center">
+ <ul class="list-inline social-buttons text-center">
+ <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+ <li class="list-inline-item"> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+ <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i> </a></li>
+ </ul>
+ </div>
+ </div>
+</footer>
+</body>
+</html>

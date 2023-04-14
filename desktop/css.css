@@ -1,0 +1,349 @@
+
+/*  laptops and desktops, 950px and up */
+@media only screen and (min-width: 950px) {
+
+
+				 /* The default fonts for the website*/
+			 	 html {
+			 		font-family:"Helvetica Neue",  Helvetica ,sans-serif;}
+
+					/* No underline for the links*/
+					html a {
+						color: #fff !important;
+					}
+
+			 	 /* headigs font will be in Georgia*/
+			 		h1, h2, h3, h4, h5, h6 {
+			 		font-family: Georgia, serif;
+			 	 }
+
+				 /*the header text is cursive, align to center white is forced**/
+				 header {
+				 position: relative;
+				 margin: -20px -20px 0px -20px;
+				 background-color:	MidnightBlue;
+				 padding: 1px 1px;
+				  }
+
+         /*the header h1, text align to center*/
+				 header h1 {
+				 	font-size: 25px;
+				 	font-family:'Brush Script MT', cursive;
+				  text-align: center;
+				 }
+
+			 	 /*deflaut color*/
+			 	 body {
+          color: black;
+					font-size: 20px;
+			 	  }
+
+        	/*hover is clear*/
+			 	 a:hover{
+			 	 opacity: 0.7;
+			 	 text-decoration: none;
+			 	 }
+
+			 	 /*active */
+			 	  a:active{
+			 	 text-decoration: none;
+			 	 color: blue;
+			 	 }
+
+         /*active is clear*/
+			 	 a, a:hover, a:focus {
+			 	 text-decoration: none;
+			 	 color: inherit;
+			 	 }
+
+				 /*no style type*/
+			 	 	ul, li{
+			 	 	list-style-type: none;
+			 	  }
+
+					/* navbar link will be black with a padding to the right*/
+				  nav  a {
+				  font-size: 20px;
+				  color: black !important;
+				  padding-right: 20px !important;
+				  }
+
+					/* navbar list will be black with a float to the right*/
+					 nav li  {
+				   float: right;
+				  display: flex;
+					font-size: 20px;
+					color: black;
+					}
+
+					/*the image is flexed and floats to the left*/
+					.nav {
+					float: left;
+					display: flex;
+					}
+
+
+     /* the middle area of the web pages*/
+     .center {
+      margin: auto;
+      padding:25px 25px;
+      margin:  5px;
+      }
+
+			/* the links will be a light green*/
+			.center a {
+  		color: #61CE70 !important;
+			}
+
+			/* the cover of the links will be a blue*/
+			.center a:hover {
+  		color: blue !important;
+			}
+
+			/* the text will be centered*/
+			.text-center{
+			 text-align: center;
+			 }
+
+			 /* the hr will be a soild black*/
+			hr {
+			border: 0;
+			clear:both;
+			display:block;
+			width: 100%;
+			background-color: black;
+			height: 1px;
+			}
+
+	/* footer at the end of page with social media info center*/
+	/* the padding top bottom, font size, text align will place the info at the bottom right of the page*/
+	 	 footer {
+	 		margin: 0px -20px -20px -20px;
+	 		padding: 20px;
+	 		font-size:20px;
+	 		background-color: MidnightBlue;
+	 	 position: relative;
+	 	 overflow: hidden;
+	 	 }
+
+		 /* footer info is grey */
+	   .footer-column {
+	  	color: grey;
+	  	}
+
+			/* the socail buttons will be orange */
+	 		ul.social-buttons li a:active,
+	 		ul.social-buttons li a:focus,
+	 		ul.social-buttons li a:hover {
+
+	 		 background-color:  orange;
+	 		}
+
+			/* spacing is 500px */
+	 		.social-buttons{
+	 		margin-right: 500px;
+	 		}
+
+			/* the socail media structure to make the cicrle images */
+	 	 .social-buttons li a {
+	 		 line-height: 40px;
+	 		 display: block;
+	 		 width: 40px;
+	 		 height: 40px;
+	 		 color: #fff;
+	 		 border-radius: 100%;
+	 		 background-color:  grey;
+	 		}
+
+			/* the socail media structure to make the cicrle images */
+	 		.social-buttons li{
+	 		text-align: center !important;
+	 		padding-right: 20px !important;
+	 		float: right;
+	 		display: flex;
+	 		font-size: 20px;
+	 		}
+/*footer*/
+
+
+
+
+/* article page**/
+	/* space for the starting of the content after top spacing**/
+						.p {
+						padding-top: 20px;
+					   }
+
+           .p p{
+						 text-align: left;
+					   }
+
+          /*the happy kids format for the image */
+					.kids {
+				  float: left;
+					padding-top: 15px;
+					margin:  0px   20px;
+					}
+
+					/*the  crying woman float to right side*/
+					.cryingwoman {
+          float: right;
+					margin:  0px   20px;
+          }
+
+
+					/* the aside will shift to the right*/
+					aside {
+			 		 width: 15%;
+			 		 padding-left: 15px;
+			 		 padding-right: 15px;
+			 		 margin-left: 15px;
+			 		 margin-right: 15px;
+			 		 margin-bottom: 20px;
+			 		 float: right;
+			 		 font-style: italic;
+			 		 background-color: lightgray;
+			 		 border-style: dotted;
+			 		 padding-bottom: 5px;
+			 		 }
+
+					 /* the image and text will shift to the left*/
+					.h{
+					  width: 80%;
+					  float: left;
+					  text-align: left;
+					  }
+/* article page*/
+
+/* home page*/
+
+		/* background image for home page*/
+					 .newsimage{
+						background-image: url(../img/news.jpg);
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: center center;
+           	height: 200px;
+						}
+
+		/* heading wll be 30px font size with spacing on top*/
+					.newsimage h2{
+					 font-size: 30px;
+					 padding-top: 80px;
+					 }
+
+							* {
+							  box-sizing: border-box;
+							}
+
+							/* Create two equal columns that floats next to each other */
+							.column {
+							  float: left;
+							  width: 50%;
+							  padding: 10px;
+							  height: 500px;
+								}
+
+								.container{
+								 display:flex;
+								 flex-direction: row;
+								 justify-content: center;
+								 align-items: center;
+								 flex-wrap: wrap;
+								 }
+
+								/* box link will be light green*/
+								.box a {
+								padding-top:  15px;
+								color: #61CE70 !important;
+								}
+
+								/* box will be width of 100% and height of 200px*/
+						.box img{
+						 width:100%;
+						 height:200px;
+				     }
+
+						 /* this will design the box*/
+						.box{
+						 display:flex;
+						 flex-direction: column;
+						 align-items: center;
+						 justify-content: center;
+						 max-width:25rem;
+						 min-width: 25px;
+					   margin: 10px;
+						 text-align: center;
+						 border: 1px solid black;
+						 padding:25px 25px;
+						 }
+
+	/* home page*/
+
+
+/* contact page*/
+
+		/* message area is height of 50px and font size 15px */
+						textarea{
+						height: 100px;
+						font-size: 15px;
+								 }
+
+						/* Style inputs */
+						input[type=text],   textarea {
+						width: 100%;
+						padding: 12px;
+					  border: 1px solid black;
+					  margin-top: 6px;
+						margin-bottom: 22px;
+					 }
+
+					  /* Style inputs */
+						input[type=submit] {
+						border: none;
+						color: white;
+						background: blue;
+						padding: 10px 20px;
+						margin: 10px 2px;
+						border-radius: 25px;
+						float: right;
+					  }
+
+						/* the button for submit */
+						input[type=submit]:hover {
+						background: #f44c0e;
+					  }
+
+							form {
+							margin: auto;
+							padding:25px 25px;
+							margin:  5px;
+							}
+
+							/* map container for the map */
+						.map-container-6{
+				     overflow:hidden;
+             padding-bottom:56.25%;
+						 position:relative;
+						 height:100px;
+						 }
+
+						/*map container height width whole area*/
+						.map-container-6 iframe{
+						left:0;
+					  top:0;
+						height:100%;
+						width:100%;
+				  	position:absolute;
+						}
+/* contact page*/
+
+					 .left{
+            float: left;
+						 font-size: 30px;
+					 }
+
+
+
+
+}

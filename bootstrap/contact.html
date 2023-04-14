@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<title>Contact - Daily St Andrews</title>
+<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- Fontawesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!--style sheet -->
+<link rel="stylesheet" href="css.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- the header has my company name centered in the middle -->
+<header class="col-md-12 text-center" >
+   <a href="home.html"><h1>The Daily St Andrews</h1></a>
+</header>
+
+<!-- Navigation -->
+<!-- narbat expand to middle size-->
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="home.html"> <img src="../img/DSA.png" alt="The Daily St Andrews" width="120" height="50"  class="img-fluid" ></a>
+   <!--the button will be to the left side, the nav bar main home bar, will display on the left when open -->
+ <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+  <div class="navbar-nav nav">
+  	 <a href="home.html"  class="nav-link active">Home</a>
+  	 <a href="articles.html" class="nav-item nav-link link-dark">Articles</a>
+  	 <a href="contact.html" class="nav-item nav-link link-dark">Contact</a>
+  </div>
+  </div>
+</nav>
+
+<!-- a bold line for seprating -->
+<hr>
+
+<!--this will center all the content in this section until it reaches the footer-->
+<section class=" center pb-5">
+
+  <!--the header for the contact us-->
+  <h2 class="text-center contact pt-4">Contact Us</h2>
+  <!-- a bold line for seprating -->
+  <hr>
+
+  <!-- a row the contact us -->
+<div class="row">
+<div class="col-lg-5 mb-4">
+   <div class="card  mx-2">
+   <div class="card-body py-3 ">
+
+<!-- a form for a contact us -->
+<form action="mailto:someone@example.com" method="post" enctype="text/plain" class="flex-container row">
+ <div class="col-md-6">
+ <label>Name</label>
+ <input type="text" class="field" placeholder="Your name">
+ </div>
+
+<div class="col-md-6">
+<label>Email</label>
+<input type="text" class="field" placeholder="Email">
+</div>
+
+<div class="col-md-12">
+ <label>Message</label>
+ <textarea placeholder="Message" class="field"></textarea>
+ <input  class="pull-right btn btn-primary btn-lg" type="submit" value="Submit">
+</div>
+ </form><!-- End Contact Us Section -->
+  </div>
+  </div>
+  </div>
+
+<!-- the map column -->
+<div class="col-lg-7">
+    <!--Google map-->
+    <div id="map-container-google-11" class="z-depth-1-half map-container-6" >
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2211.3887364107886!2d-2.7980166!3d56.3403769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48865785403166ff%3A0x5139f734695a6824!2s12A%20Greyfriars%20Garden%2C%20St%20Andrews%20KY16%209HG!5e0!3m2!1sen!2suk!4v1667912848043!5m2!1sen!2suk"  width="420" height="400"  title="The Daily St Andrews Location" aria-label="The Daily St Andrews Location"></iframe>
+  </div>
+</div>
+</div>
+
+</section><!-- end of the .center -->
+<!--the footer has the social media icons and contact info-->
+<footer>
+   <div class="row">
+   <div class="col-md-4 footer-column">
+  <ul class=" nav flex-column">
+  <li>The Daily St Andrews</li>
+  <li>Market Street</li>
+  <li>St Andrews, Scotland</li>
+  <li><i class="fa fa-envelope"> <a href="mailto:dailystandrews@gmail.com">dailystandrews@gmail.com</a></i></li>
+  <li><i class="fa fa-phone"><a href="tel:+555-555-555">555-555-555</a></i></li>
+  </ul>
+  </div>
+
+<div class="col-md-4 footer-column list-inline social-buttons text-center">
+<ul class="list-inline social-buttons text-center">
+<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item"> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i> </a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body>
+</html>

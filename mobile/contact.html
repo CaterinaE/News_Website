@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<title>Contact - Daily St Andrews</title>
+<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fontawesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!--style sheet -->
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<!-- the header has my company name centered in the middle -->
+<header>
+   <h1><a href="home.html">The Daily St Andrews</a></h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+ <!-- picture of  DSA logo-->
+ <a href="home.html"><img src="../img/DSA.png" alt="The Daily St Andrews" width="100" height="50" class="nav"></a>
+   <ul>
+   <li><a href="contact.html">Contact</a></li>
+   <li><a href="articles.html">Articles</a></li>
+   <li><a href="home.html">Home</a></li>
+   </ul>
+ </nav>
+
+<!-- a bold line for seprating -->
+<hr>
+
+<!--this will center all the content in this section until it reaches the footer-->
+<section class=" center">
+  <!--the header for the contact us-->
+  <h2 class="text-center">Contact Us</h2>
+<!-- a bold line for seprating Contact us -->
+<hr>
+
+<!-- holds the two columns the contact us form and the map-->
+<div class ="twocolumns">
+<!-- a form for a contact us -->
+<div class="column">
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+   <label>Name</label>
+   <input type="text" class="field" placeholder="Your name">
+   <label>Email</label>
+   <input type="text" class="field" placeholder="Email">
+   <label>Message</label>
+   <textarea placeholder="Message" class="field"></textarea>
+   <input  class="button" type="submit" value="Submit">
+  </form>
+  </div><!-- End Contact Us Section -->
+
+  <!-- the map column -->
+  <div class="column">
+  <div class=" map-container-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2211.3887364107886!2d-2.7980166!3d56.3403769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48865785403166ff%3A0x5139f734695a6824!2s12A%20Greyfriars%20Garden%2C%20St%20Andrews%20KY16%209HG!5e0!3m2!1sen!2suk!4v1667912848043!5m2!1sen!2suk"   title="The Daily St Andrews Location" aria-label="The Daily St Andrews Location"></iframe>
+  </div>
+  </div>
+</div> <!-- End of map -->
+</section><!-- end of the .center -->
+
+<!--the footer has the social media icons and contact info-->
+<footer>
+  <ul class="social-buttons">
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+  </ul>
+  <div class="footer-column">
+  <ul>
+  <li>The Daily St Andrews</li>
+  <li>Market Street</li>
+  <li>St Andrews,Scotland</li>
+  <li><i class="fa fa-envelope"> <a href="mailto:dailystandrews@gmail.com">dailystandrews@gmail.com</a></i></li>
+  <li><i class="fa fa-phone"><a href="tel:+555-555-555">555-555-555</a></i></li>
+  </ul>
+</div>
+</footer>
+</body>
+</html>
